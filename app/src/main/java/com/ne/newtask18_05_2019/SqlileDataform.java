@@ -50,7 +50,7 @@ public String setInput(String a_username)
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL("create table fir(username text,mailid text,mobilenumber text,location text,password text)");
-
+  
     }
 
     @Override
